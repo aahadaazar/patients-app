@@ -66,7 +66,7 @@ This frontend application relies on a separate backend API. Please ensure your b
 ### **Running the Application Locally**
 
 1. **Start the backend server** (refer to "Backend Setup" above).
-2. Start the frontend development server:  
+2. **Start the frontend development server:**  
    Open your terminal, navigate to the frontend directory, and run:  
    npm run dev
 
@@ -81,7 +81,7 @@ This frontend application relies on a separate backend API. Please ensure your b
 ### **Building the Docker Image**
 
 1. **Navigate to the frontend directory in your terminal.**  
-   cd frontend
+   cd patients-app
 
 2. **Build the Docker image:**  
    docker build \-t patients-app .
